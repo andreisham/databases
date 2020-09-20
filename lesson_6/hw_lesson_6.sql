@@ -22,6 +22,23 @@ select
 from likes_posts
 order by `number of likes` ; 
 
+-- ИСПРАВЛЕННОЕ (сначала найти сколько у кого лайков, а потом выбрать 10 самых молодых)
+
+select
+	u.id,
+	u.name,
+	u.surname,
+	timestampdiff(year, u.birthday, now()) as 'age',
+	count(*) as total_likes
+from users u 
+join posts p 
+	on u.id = p.user_id 
+join likes_posts lp  
+	on p.id = lp.post_id 
+group by u.id 
+order by age, total_likes desc 
+limit 10;
+
 -- Определить кто больше поставил лайков (всего) - мужчины или женщины?
 
 select 
