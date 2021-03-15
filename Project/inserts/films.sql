@@ -1,0 +1,21 @@
+
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Побег из Шоушенка', 'Драма', 1994, 0, 199);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Зеленая миля', 'Драма', 1999, 0, 199);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Форрест Гамп', 'История', 1994, 0, 199);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Список Шиндлера', 'Биография', 1993, 0, 199);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('1+1', 'Комедия', 2011, 1, 249);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Начало', 'Фантастика', 2010, 1, 249);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Леон', 'Боевик', 1994, 0, 199);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Король Лев', 'Мультфильм', 1994, 1, 99);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Бойцовский клуб', 'Триллер', 1999, 0, 199);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Иван Васильевич меняет профессию', 'Комедия', 1973, 0, 1);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Жизнь прекрасна', 'Драма', 1997, 0, 199);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Достучаться до небес', 'Драма', 1997, 0, 99);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Крестный отец', 'Криминал', 1972, 0, 99);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Криминальное чтиво', 'Триллер', 1994, 0, 99);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Операция «Ы» и другие приключения Шурика', 'Комедия', 1965, 0, 1);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Престиж', 'Фантастика', 2006, 0, 99);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Игры разума', 'Биография', 2001, 0, 199);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Интерстеллар', 'Фантастика', 2014, 1, 249);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Властелин колец: Возвращение Короля', 'Фэнтези', 2003, 1, 99);
+insert into films (title, genre, `year`, is_in_cinema, price) values ('Гладиатор', 'История', 2000, 0, 199);
